@@ -1,0 +1,43 @@
+/* COMMON */
+
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-black);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.inner {
+  border: 1px solid red;
+  width: 50%;
+  margin: auto;
+}
+/* HEADER */
+
+.logo {
+  background: ;
+}
+.btn-list {
+  display: flex;
+  flex-direction: row;
+}
